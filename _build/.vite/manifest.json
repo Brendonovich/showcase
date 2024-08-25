@@ -1,0 +1,70 @@
+{
+  "_HttpStatusCode-DtD0FKv-.js": {
+    "file": "assets/HttpStatusCode-DtD0FKv-.js",
+    "name": "HttpStatusCode"
+  },
+  "_client-!~{005}~.js": {
+    "file": "assets/client-Tk0JeWAS.css",
+    "src": "_client-!~{005}~.js"
+  },
+  "_client-O7RTL11c.js": {
+    "file": "assets/client-O7RTL11c.js",
+    "name": "client",
+    "imports": [
+      "_HttpStatusCode-DtD0FKv-.js"
+    ],
+    "dynamicImports": [
+      "src/routes/[...404].tsx?pick=default&pick=$css",
+      "src/routes/index.tsx?pick=default&pick=$css",
+      "src/routes/projects/[project].tsx?pick=default&pick=$css",
+      "node_modules/lume/dist/index.js"
+    ],
+    "css": [
+      "assets/client-Tk0JeWAS.css"
+    ]
+  },
+  "node_modules/lume/dist/index.js": {
+    "file": "assets/index-B2zmu8Rr.js",
+    "name": "index",
+    "src": "node_modules/lume/dist/index.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "_HttpStatusCode-DtD0FKv-.js",
+      "_client-O7RTL11c.js"
+    ]
+  },
+  "src/routes/[...404].tsx?pick=default&pick=$css": {
+    "file": "assets/_...404_-CvZfi0wJ.js",
+    "name": "_...404_",
+    "src": "src/routes/[...404].tsx?pick=default&pick=$css",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_HttpStatusCode-DtD0FKv-.js"
+    ]
+  },
+  "src/routes/index.tsx?pick=default&pick=$css": {
+    "file": "assets/index-C7GoVCI2.js",
+    "name": "index",
+    "src": "src/routes/index.tsx?pick=default&pick=$css",
+    "isEntry": true,
+    "isDynamicEntry": true
+  },
+  "src/routes/projects/[project].tsx?pick=default&pick=$css": {
+    "file": "assets/_project_-CPIyUM3p.js",
+    "name": "_project_",
+    "src": "src/routes/projects/[project].tsx?pick=default&pick=$css",
+    "isEntry": true,
+    "isDynamicEntry": true
+  },
+  "virtual:$vinxi/handler/client": {
+    "file": "assets/client-B_5kMwNN.js",
+    "name": "client",
+    "src": "virtual:$vinxi/handler/client",
+    "isEntry": true,
+    "imports": [
+      "_client-O7RTL11c.js",
+      "_HttpStatusCode-DtD0FKv-.js"
+    ]
+  }
+}
